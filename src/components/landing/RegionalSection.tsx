@@ -8,8 +8,8 @@ const regionalFeatures = [
   },
   {
     icon: MapPin,
-    title: "GCC Market Expertise",
-    description: "Understands UAE, Saudi, Qatar, Bahrain labor markets. Knows the visa categories, sponsorship requirements, and hiring patterns unique to the region.",
+    title: "MENA Market Expertise",
+    description: "Understands MENA labor markets. Knows the visa categories, sponsorship requirements, and hiring patterns unique to the region.",
   },
   {
     icon: Scale,
@@ -19,7 +19,7 @@ const regionalFeatures = [
   {
     icon: Clock,
     title: "Time Zone Resilient",
-    description: "Your AI works 24/7. Candidates apply at midnight? They're screened by morning. Dubai operates globally—your hiring should too.",
+    description: "Your AI works 24/7. Candidates apply at midnight? They're screened by morning. Your hiring never stops.",
   },
 ];
 
@@ -47,18 +47,14 @@ const RegionalSection = () => {
               </p>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl lg:text-4xl font-serif font-bold text-foreground">6+</div>
-                  <div className="text-sm text-muted-foreground mt-1">Languages</div>
-                </div>
+              <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl lg:text-4xl font-serif font-bold text-foreground">24/7</div>
                   <div className="text-sm text-muted-foreground mt-1">Screening</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl lg:text-4xl font-serif font-bold text-foreground">GCC</div>
-                  <div className="text-sm text-muted-foreground mt-1">Compliant</div>
+                  <div className="text-3xl lg:text-4xl font-serif font-bold text-foreground">MENA</div>
+                  <div className="text-sm text-muted-foreground mt-1">Focused</div>
                 </div>
               </div>
             </div>

@@ -22,14 +22,14 @@ const problems = [
     description: "Hire fast or hire right? In hospitality, you need both. One bad hire disrupts the entire team.",
   },
   {
-    icon: Globe,
-    title: "Language & Cultural Barriers",
-    description: "Diverse talent pool, but screening across languages and backgrounds takes expertise and time you don't have.",
-  },
-  {
     icon: AlertTriangle,
     title: "Last-Minute Panic Hiring",
     description: "Someone quits Friday night. You need a replacement by Monday. Desperation leads to poor decisions.",
+  },
+  {
+    icon: Globe,
+    title: "Scattered Screening Process",
+    description: "Diverse talent pool with different backgrounds, but consistent screening takes time and expertise you don't have.",
   },
 ];
 

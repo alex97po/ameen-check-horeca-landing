@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     question: "When will this be available?",
-    answer: "We're currently in development and selecting early pilot partners. Waitlist members will get priority access as we launch—expected Q2 2025 for UAE-based hospitality businesses.",
+    answer: "We're currently in development and selecting early pilot partners. Waitlist members will get priority access as we launch—expected Q1 2026 for MENA-based hospitality businesses.",
   },
   {
     question: "Does it work for all hospitality positions?",
@@ -19,11 +19,7 @@ const faqs = [
     answer: "Absolutely. That's exactly what it's built for. Whether you're filling 5 positions or 50, the AI scales effortlessly.",
   },
   {
-    question: "What languages does it support?",
-    answer: "Currently: English, Arabic, Tagalog, Hindi, and Urdu for screening. We're adding more languages based on regional hiring needs.",
-  },
-  {
-    question: "Will it understand UAE/GCC hiring requirements?",
+    question: "Will it understand MENA hiring requirements?",
     answer: "Yes. Built specifically for the Middle East hospitality market. Understands visa categories, sponsorship, notice periods, and regional hiring patterns.",
   },
   {

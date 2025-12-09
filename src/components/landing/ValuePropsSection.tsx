@@ -8,12 +8,6 @@ const valueProps = [
     highlight: "Hours, not weeks",
   },
   {
-    icon: Languages,
-    title: "Multi-Language Capability",
-    description: "Your talent pool speaks many languages. Your AI screens candidates in English, Arabic, Tagalog, Hindi, Urdu, and more—understanding nuances in hospitality experience across cultures.",
-    highlight: "6+ languages",
-  },
-  {
     icon: FileCheck,
     title: "Visa & Documentation Aware",
     description: "Automatically flags visa status, work permits, and required certifications (food handlers, alcohol service, etc.). No surprises after you've invested time in interviews.",

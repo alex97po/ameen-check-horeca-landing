@@ -33,11 +33,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-serif font-bold text-lg">H</span>
-            </div>
+            <img src="/logo.svg" alt="AmeenCheck" className="h-8 w-auto" />
             <span className="font-serif font-semibold text-lg text-foreground">
-              HORECA<span className="text-primary">AI</span>
+              Ameen<span className="text-primary">Check</span>
             </span>
           </a>
 

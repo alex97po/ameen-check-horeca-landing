@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-8 animate-fade-up">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-muted-foreground">
-              Now accepting early access applications for UAE
+              Now accepting early access applications
             </span>
           </div>
 
@@ -53,24 +53,6 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Social Proof */}
-          <div className="mt-16 pt-8 border-t border-border/50 animate-fade-up animation-delay-500">
-            <p className="text-sm text-muted-foreground mb-4">Trusted by hospitality leaders across the GCC</p>
-            <div className="flex items-center justify-center gap-8 opacity-60">
-              <div className="text-sm font-medium text-foreground/70">Dubai Hotels</div>
-              <div className="w-px h-4 bg-border" />
-              <div className="text-sm font-medium text-foreground/70">Restaurant Groups</div>
-              <div className="w-px h-4 bg-border" />
-              <div className="text-sm font-medium text-foreground/70">Catering Companies</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex items-start justify-center p-2">
-          <div className="w-1 h-2 rounded-full bg-muted-foreground/50" />
         </div>
       </div>
     </section>

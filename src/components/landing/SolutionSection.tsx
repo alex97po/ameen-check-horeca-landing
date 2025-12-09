@@ -27,12 +27,12 @@ const features = [
   {
     icon: Star,
     title: "Screens for Hospitality Fit",
-    description: "Evaluates candidates on hospitality-specific criteria: experience with POS systems, food safety certifications, language skills, shift flexibility, customer service aptitude.",
+    description: "Evaluates candidates on hospitality-specific criteria: experience with POS systems, food safety certifications, shift flexibility, customer service aptitude.",
   },
   {
     icon: Mic,
-    title: "Pre-Screens in Multiple Languages",
-    description: "Conducts initial interviews via WhatsApp audio in English, Arabic, Tagalog, Hindi, and more. Asks the right questions: shift availability, visa status, hospitality experience.",
+    title: "Pre-Screens Candidates Effectively",
+    description: "Conducts initial interviews via WhatsApp audio. Asks the right questions: shift availability, visa status, hospitality experience.",
   },
   {
     icon: Zap,
@@ -59,7 +59,7 @@ const SolutionSection = () => {
             Your AI Talent Specialist—Built for Hospitality
           </h2>
           <p className="text-lg text-muted-foreground">
-            Understands HORECA roles, schedules, and the urgency of hospitality hiring. Works around the clock, speaks multiple languages, never takes a day off.
+            Understands HORECA roles, schedules, and the urgency of hospitality hiring. Works around the clock, never takes a day off.
           </p>
         </div>
 

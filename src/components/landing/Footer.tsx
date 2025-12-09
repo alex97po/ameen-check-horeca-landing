@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Linkedin, Instagram, Mail } from "lucide-react";
+import { ArrowRight, Linkedin, Mail, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -38,19 +38,17 @@ const Footer = () => {
             {/* Brand */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                  <span className="text-primary-foreground font-serif font-bold text-lg">H</span>
-                </div>
+                <img src="/logo.svg" alt="AmeenCheck" className="h-8 w-auto" />
                 <span className="font-serif font-semibold text-lg">
-                  HORECA<span className="text-primary">AI</span>
+                  Ameen<span className="text-primary">Check</span>
                 </span>
               </div>
               <p className="text-background/60 mb-6 max-w-sm">
-                Built for hospitality operators who are tired of hiring chaos. Launching in UAE, expanding across the GCC.
+                Built for hospitality operators who are tired of hiring chaos. Launching in the MENA region.
               </p>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/alex-pohorelov/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
@@ -58,15 +56,15 @@ const Footer = () => {
                   <Linkedin size={18} />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://wa.me/message/FIOH33SJFXQ6J1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
                 >
-                  <Instagram size={18} />
+                  <MessageCircle size={18} />
                 </a>
                 <a
-                  href="mailto:hello@horecaai.com"
+                  href="mailto:sas.pogorelov@gmail.com"
                   className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
                 >
                   <Mail size={18} />
@@ -79,13 +77,13 @@ const Footer = () => {
               <h4 className="font-serif font-semibold mb-4">Contact</h4>
               <div className="space-y-3">
                 <a
-                  href="mailto:hello@horecaai.com"
+                  href="mailto:sas.pogorelov@gmail.com"
                   className="block text-background/60 hover:text-background transition-colors"
                 >
-                  hello@horecaai.com
+                  sas.pogorelov@gmail.com
                 </a>
                 <a
-                  href="https://wa.me/your-number"
+                  href="https://wa.me/message/FIOH33SJFXQ6J1"
                   className="block text-background/60 hover:text-background transition-colors"
                 >
                   WhatsApp
@@ -122,7 +120,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="mt-12 pt-8 border-t border-background/10 text-center">
             <p className="text-background/40 text-sm">
-              © {new Date().getFullYear()} HORECA AI. All rights reserved.
+              © {new Date().getFullYear()} AmeenCheck. All rights reserved.
             </p>
           </div>
         </div>
